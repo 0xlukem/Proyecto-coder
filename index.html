@@ -4,64 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psi Areig</title>
-    <!--para despues agregar icono personalizado-->>
+    <!--link a favicon-->>
     <link rel="shortcut icon" href="multimedia/fav-03.png" type="image/x-icon">
+    <!--link a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--link a CSS custom-->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--fila logo + nav-->
-    <header>
-        <div class="logoHead">
-            <img src="/multimedia/Logos CMA-01.png" alt="logo de psico A Reig" width="200px" height="200px" >
-        </div>
-        <h1 class="tituloHead">Psico A.Reig</h1>
-        <nav>
-            <div class="menu">
-                <div> 
-                    <a href="index.html"> Inicio </a>
-                </div>
-                <div>
-                    <a href="pages/terapia-online.html">Terapia Online</a>
-                </div>
-                <div>
-                    <a href="pages/mi-enfoque.html"> Mi Enfoque</a>
-                </div>
-                <div>
-                    <a href="pages/sobre-mi.html"> Sobre Mi</a>
-                </div>
-                <div>
-                    <a href="pages/blog.html"> Blog</a>
-                </div>
-                <div>
-                    <a href="pages/contacto.html"> Contacto</a>
-                </div>
+   <!--fila logo + nav-->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E6818D;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/multimedia/Logos CMA-01.png" alt="logo de psico A Reig" height="50">
+                Psico A.Reig
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/terapia-online.html">Terapia Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/mi-enfoque.html">Mi Enfoque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/sobre-mi.html">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    
-    </header>
+        </div>
+    </nav>
+</header>
+
     <!--fin logo + nav-->
-    <div>
+    <!--inicio de titulo-->>
+    <div class="text-center" >
         <h1>Bienvenido a un Camino de Sanación Integral: Mente, Cuerpo y Alma</h1>
     </div>
+    <!-- fin de titulo-->>
     <!--inicio de imagen 100% -->
     <section>
-        <img src="/multimedia/psychedelic-paper-shapes-with-human-head-profiles.jpg" alt="imagen psico 1"width=100% height="500px" >
+        <img src="/multimedia/psychedelic-paper-shapes-with-human-head-profiles.jpg" class="img-fluid" alt="imagen psico 1" >
     </section>
     <!--fin de imagen 100% -->
     
     <!--inicio de la primera seccion del cuerpo-->
-    <section class="contentUno" >
-        <img src="/multimedia/hand-drawn-world-mental-health-day/4220878.jpg" alt="imagen psico izquierda" width="400" height="400">
-        <div class="TextRight">
-            <p>
-                <h3>
-                Mi nombre es Andrea Reig, y detrás de Psico A. Reig, encontrarás un enfoque holístico y afectuoso hacia la salud mental, diseñado para aquellos que buscan armonía en cada aspecto de su ser. Formada inicialmente en psicoanálisis freudiano en la prestigiosa Universidad de Buenos Aires, mi viaje me llevó a explorar y abrazar corrientes como la conductual y la Gestalt, hasta que encontré mi pasión en la psicología holística. Creo firmemente que para alcanzar un bienestar auténtico, debemos sanar no solo la mente, sino también el cuerpo y el alma, una filosofía que se refleja en cada aspecto de mi práctica y en mi logo personal
-                </h3>    
-            </p>       
+    <section class="contentUno container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 img-column">
+                <img src="/multimedia/hand-drawn-world-mental-health-day/4220878.jpg" alt="imagen psico izquierda" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-lg-8 d-flex align-items-center">
+                <div>
+                    <p>
+                        <h3>Mi nombre es Andrea Reig, y detrás de Psico A. Reig, encontrarás un enfoque holístico y afectuoso hacia la salud mental, diseñado para aquellos que buscan armonía en cada aspecto de su ser. Formada inicialmente en psicoanálisis freudiano en la prestigiosa Universidad de Buenos Aires, mi viaje me llevó a explorar y abrazar corrientes como la conductual y la Gestalt, hasta que encontré mi pasión en la psicología holística. Creo firmemente que para alcanzar un bienestar auténtico, debemos sanar no solo la mente, sino también el cuerpo y el alma, una filosofía que se refleja en cada aspecto de mi práctica y en mi logo personal</h3>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
+    
     <!--Inicio boton CTA-->
-    <div class="ctaCenter" >
+    <div class="text-center my-4" class="ctaCenter" >
     <a class="cta-btn" href="/pages/contacto.html">Agenda tu sesión</a>  
     </div>
     <!--fin boton CTA-->
@@ -69,55 +86,54 @@
     <!--fin de la primera seccion del cuerpo-->
 
     <!--inicio de la segunda seccion del cuerpo-->
-    <section>
-        <div>
-            <h2>¿Por Qué Elegir a Psico A. Reig?</h2>
-            <h3>Un Enfoque Personalizado para Tu Sanación Integral</h3>
-            <p>
-                <h3>Como tu guía en este viaje hacia el bienestar, ofrezco un espacio cálido y reconfortante, donde juntos exploraremos las profundidades de tu ser para desentrañar, comprender y sanar. Mi enfoque es profundamente personalizado, fusionando lo mejor de diversas corrientes psicológicas con prácticas holísticas, para ofrecerte un camino de sanación que es tan único como tú. En Psico A. Reig, te acompaño a:</h3>
-             </p>
+   <!--inicio de la segunda seccion del cuerpo-->
+<section class="container my-5">
+    <div class="row">
+        <div class="col-md-8 col-lg-9">
+            <div>
+                <h2>¿Por Qué Elegir a Psico A. Reig?</h2>
+                <h3>Un Enfoque Personalizado para Tu Sanación Integral</h3>
+                <p> <h3>Como tu guía en este viaje hacia el bienestar, ofrezco un espacio cálido y reconfortante, donde juntos exploraremos las profundidades de tu ser para desentrañar, comprender y sanar.
+                 Mi enfoque es profundamente personalizado, fusionando lo mejor de diversas corrientes psicológicas con prácticas holísticas, para ofrecerte un camino de sanación que es tan único como tú. En Psico A. Reig, te acompaño a:</h3></p>
+                <ul>
+                    <li><h3>Reconectar con tu esencia, abrazando la paz interior y el equilibrio emocional.</h3></li>
+                    <li><h3>Superar barreras mentales y emocionales, con estrategias que resuenan contigo.</h3></li>
+                    <li><h3>Promover un crecimiento espiritual y personal que ilumine cada aspecto de tu vida.</h3></li>
+                </ul>
+                <p><h3>uoso y experto, en un entorno seguro donde puedas sentirte comprendido, valorado y, sobre todo, capaz de alcanzar tu plenitud.</h3></p>
+            </div>
         </div>
-        <div>
-           <ul>
-            <li><p><h3>Reconectar con tu esencia, abrazando la paz interior y el equilibrio emocional.</h3></p></li>
-            <li><p><h3>Superar barreras mentales y emocionales, con estrategias que resuenan contigo.</h3></p></li>
-            <li><p><h3>Promover un crecimiento espiritual y personal que ilumine cada aspecto de tu vida.</h3></p></li>
-           </ul>
+        <div class="col-md-4 col-lg-3">
+            <img src="/multimedia/mental-health-awareness-concept/3764135.jpg" alt="imagen psico 2 derecha" class="img-fluid">
         </div>
-        <div>
-            <p>
-                <h3>Mi compromiso es brindarte un acompañamiento afectuoso y experto, en un entorno seguro donde puedas sentirte comprendido, valorado y, sobre todo, capaz de alcanzar tu plenitud.</h3>
-            </p>
-        </div>
-            <img src="/multimedia/mental-health-awareness-concept/3764135.jpg" alt="imagen psico 2 derecha" width="400" height="400">
-    </section>
+    </div>
+</section>
+<!--fin de la segunda seccion del cuerpo-->
+
     <!--fin de la segunda seccion del cuerpo-->
     
 
 <!--inicio del footer-->
-    <footer>
-        <div>
-            <p>
-                <h5>
-                    Da el primer paso hacia tu armonía interior: Descubre el equilibrio de mente, cuerpo y alma.   
-                </h5>
-            </p>
-        </div>
-        <div class="cta-btn-ftr-center">
-            <a class="cta-btn-ftr" href="/pages/contacto.html">Agenda tu sesión</a> 
-               
-        </div>
-        <div>
-            <h3>Redes</h3>
-        </div>
-        <div>
-            <img src="/multimedia/linkedin.svg" alt="linkdin" width="33px" height="33px">
-            <img src="/multimedia/instagram.svg" alt="instagam" width="33px" height="33px">
-            <img src="/multimedia/tik-tok.svg" alt="tiktok" width="33px" height="33px">
-        </div>
+<footer class="footer-container">
+    <div class="footer-left">
+        <p>Da el primer paso hacia tu armonía interior: Descubre el equilibrio de mente, cuerpo y alma.</p>
+    </div>
+    <div class="footer-center">
+        <a href="/pages/contacto.html" class="cta-btn-ftr">Agenda tu sesión</a>
+    </div>
+    <div class="footer-right">
+        <a href="tu-instagram" ><img src="/multimedia/instagram.svg" alt="Instagram"></a>
+        <a href="tu-tiktok" ><img src="/multimedia/tik-tok.svg" alt="TikTok"></a>
+        <a href="tu-linkedin"><img src="/multimedia/linkedin.svg" alt="LinkedIn"></a>
+    </div>
+</footer>
 
-        </div>
-    </footer>
     <!--fin del footer-->
+
+
+
+
+<!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
 </body>
 </html>

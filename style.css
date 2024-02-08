@@ -24,65 +24,82 @@ h3,h2,h4{
     font-style: normal;
     color: #f2eded;
 }
+/* inicio estilos para el nav */
 
-	/* inicio estilos para el nav */
-.menu{
-	/* Estilos para el contenedor */
-	font-family: "Gochi Hand", cursive;
-	color: aliceblue;
-	text-align: right;
-	background-color: #E6818D;
-	padding: 20px;
+.navbar-brand img {
+    max-height: 50px; 
+    
 }
 
-.menu div {
-    /* Estilos para cada div dentro de .menu */
-    display: inline-block;
-	margin: 20px 20px;
+.navbar-brand {
+    font-family: "Gochi Hand", cursive;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el logo y el texto */
 }
 
-.menu a {
-    /* Estilos para los enlaces */
-    color: #f2eded;
-    text-decoration: none;
-    font-size: 16px;
+/* Estilos para los enlaces del navbar */
+.nav-link {
+    font-family: "Gochi Hand", cursive;
+    color: #f2eded !important; /* Forzar el color del texto de los enlaces */
 }
 
-.menu a:hover {
-    /* Estilos para los enlaces al pasar el mouse */
-    color: #040404;
+.nav-link:hover {
+    color: #040404 !important; 
+}
+
+/* responsive */
+@media (max-width: 992px) {
+   
 }
 
 /* Fin estilos para el nav */
 
 /*inicio estilos footer*/
-footer{
-    font-family: "Gochi Hand", cursive;
-	color: aliceblue;
-	background-color: #E6818D;
-	padding: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E6818D; /* Ajusta al color de tu preferencia */
+    color: aliceblue; /* Ajusta al color de tu preferencia */
 }
 
-.cta-btn-ftr-center{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 50px;
-}
-.cta-btn-ftr{
-    background-color: #59A6D5;
-	color: rgb(243, 238, 238);
-	padding: 15px 50px;
-	text-decoration: none;
-	 }
-  
-  .cta-btn:hover {
-	background-color: #B3F1A6; 
+.footer-left, .footer-center, .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.footer-left {
+    flex: 1; /* Ocupa el espacio disponible */
+}
+
+.footer-center {
+    flex: 1; /* Ocupa el espacio disponible, asegura que el botón CTA esté centrado */
+}
+
+.footer-right {
+    flex: 1; /* Ocupa el espacio disponible, distribuye los íconos de redes sociales */
+    justify-content: flex-end; /* Alinea los íconos de redes sociales a la derecha */
+}
+
+.footer-right a img {
+    width: 30px; /* Ajusta según el tamaño deseado para los íconos */
+    margin-left: 10px; /* Espaciado entre íconos */
+}
+
+.cta-btn-ftr {
+    padding: 10px 20px;
+    background-color: #59A6D5; /* Ajusta al color de tu preferencia */
+    color: #fff; /* Ajusta al color de tu preferencia */
+    text-decoration: none;
+    border-radius: 5px; /* Añade bordes redondeados al botón */
+}
+
+.cta-btn-ftr:hover {
+    background-color: #B3F1A6; /* Ajusta para el efecto hover */
+}
 
 
 
@@ -90,7 +107,13 @@ footer{
 
 /*fin estilos footer*/
 
-
+/*inicio estilo para listas*/
+ul {
+    list-style: disc;
+    color: #E6818D;
+    
+}
+/*fin estilo listas*/
 /* inicio estilo botones CTA */
 .ctaCenter{
     text-align: center;
