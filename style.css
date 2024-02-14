@@ -126,7 +126,13 @@ ul {
 	padding: 15px 200px;
 	text-decoration: none;
 	 }
-  
+/* responsibe mobile */
+@media (max-width: 768px) {
+    .cta-btn {
+        padding: 10px 50px; 
+    }
+}  
+
   .cta-btn:hover {
 	background-color: #B3F1A6;
   }
@@ -199,6 +205,8 @@ button:hover {
     border-radius: 5px;
     overflow: hidden;
 }
+
+
 
 
 .card h3 {
