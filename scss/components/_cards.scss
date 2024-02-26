@@ -1,0 +1,31 @@
+// _cards.scss (Estilos específicos para las tarjetas del blog)
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(179, 241, 166, 1);
+    transition: 0.3s;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  
+    h3 {
+      margin: 10px 0;
+      color: #f2eded;
+    }
+  
+    p {
+      color: #fcf7f8;
+      padding: 0 15px 15px;
+    }
+  
+    &:hover {
+      box-shadow: 0 10px 20px 0 rgba(179, 241, 166, 1);
+    }
+  }
+  
