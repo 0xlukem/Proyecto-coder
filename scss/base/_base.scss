@@ -1,0 +1,33 @@
+// _base.scss
+
+// Estilos base y reset
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  // Importar fuentes de Google
+  @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gochi+Hand&display=swap');
+  
+  // Estilos base del cuerpo
+  body {
+    background-color: rgb(5, 1, 1);
+  }
+  
+  // Estilos para encabezados
+  h1 {
+    font-family: "Gochi Hand", cursive;
+    color: aliceblue;
+  }
+  
+  h2, h3, h4 {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #f2eded;
+  }
+  ul {
+    list-style: disc;
+    color: #E6818D;
+    
+}

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gochi+Hand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(5, 1, 1);
+}
+
+h1 {
+  font-family: "Gochi Hand", cursive;
+  color: aliceblue;
+}
+
+h2, h3, h4 {
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #f2eded;
+}
+
+ul {
+  list-style: disc;
+  color: #E6818D;
+}
+
+.navbar-brand {
+  font-family: "Gochi Hand", cursive;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.nav-link {
+  font-family: "Gochi Hand", cursive;
+  color: #f2eded !important;
+}
+.nav-link:hover {
+  color: #040404 !important;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #E6818D;
+  color: aliceblue;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.footer-right {
+  justify-content: flex-end;
+}
+
+.footer-right a img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.cta-btn-ftr {
+  padding: 10px 20px;
+  background-color: #59A6D5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.cta-btn-ftr:hover {
+  background-color: #B3F1A6;
+}
+
+.ctaCenter {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #59A6D5;
+  color: rgb(243, 238, 238);
+  padding: 15px 200px;
+  text-decoration: none;
+}
+.cta-btn:hover {
+  background-color: #B3F1A6;
+}
+@media (max-width: 768px) {
+  .cta-btn {
+    padding: 10px 50px;
+  }
+}
+
+form {
+  width: 300px;
+  border: 5px solid #ddd;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: flex;
+  margin-bottom: 8px;
+  color: #f2eded;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  width: 100%;
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(179, 241, 166);
+  transition: 0.3s;
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card h3 {
+  margin: 10px 0;
+  color: #f2eded;
+}
+.card p {
+  color: #fcf7f8;
+  padding: 0 15px 15px;
+}
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgb(179, 241, 166);
+}
+
+/*# sourceMappingURL=styles.css.map */

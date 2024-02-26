@@ -1,0 +1,27 @@
+// _nav.scss (Estilos específicos para la navegación)
+
+.navbar-brand {
+    img {
+      max-height: 50px;
+    }
+  
+    font-family: "Gochi Hand", cursive;
+    display: flex;
+    align-items: center;
+    gap: 10px; // Espacio entre el logo y el texto
+  }
+  
+  .nav-link {
+    font-family: "Gochi Hand", cursive;
+    color: #f2eded !important; // Forzar el color del texto de los enlaces
+  
+    &:hover {
+      color: #040404 !important; // Color al pasar el ratón
+    }
+  }
+  
+  // Media query para dispositivos con un ancho máximo de 992px
+  @media (max-width: 992px) {
+    
+  }
+  

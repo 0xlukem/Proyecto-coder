@@ -1,0 +1,23 @@
+// _buttons.scss (Estilos específicos para botones)
+
+.ctaCenter {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background-color: #59A6D5;
+    color: rgb(243, 238, 238);
+    padding: 15px 200px;
+    text-decoration: none;
+  
+    &:hover {
+      background-color: #B3F1A6;
+    }
+  // responsive para mobile
+    @media (max-width: 768px) {
+      padding: 10px 50px; 
+    }
+  }
+  

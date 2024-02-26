@@ -1,0 +1,41 @@
+// _footer.scss (Estilos específicos para el pie de página)
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E6818D; // Ajusta al color de tu preferencia
+    color: aliceblue; // Ajusta al color de tu preferencia
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; // Ocupa el espacio disponible
+  }
+  
+  .footer-right {
+    justify-content: flex-end; // Alinea los íconos de redes sociales a la derecha
+  }
+  
+  .footer-right a img {
+    width: 30px; // Ajusta según el tamaño deseado para los íconos
+    margin-left: 10px; // Espaciado entre íconos
+  }
+  
+  .cta-btn-ftr {
+    padding: 10px 20px;
+    background-color: #59A6D5; // Ajusta al color de tu preferencia
+    color: #fff; // Ajusta al color de tu preferencia
+    text-decoration: none;
+    border-radius: 5px; // Añade bordes redondeados al botón
+  
+    &:hover {
+      background-color: #B3F1A6; // Ajusta para el efecto hover
+    }
+  }
+  

@@ -1,0 +1,47 @@
+// _forms.scss (Estilos específicos para formularios)
+
+form {
+    width: 300px;
+    border: 5px solid #ddd;
+    padding: 50px;
+    border-radius: 8px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 8px;
+    color: #f2eded;
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  
