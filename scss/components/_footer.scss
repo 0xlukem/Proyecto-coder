@@ -4,8 +4,8 @@
 .footer-container {
   @include flexbox(space-between, center, row); // Utiliza tu mixin aquí
   padding: 20px;
-  background-color: #E6818D;
-  color: aliceblue;
+  background-color: map-get($colors, 'secondary');
+  color: map-get($colors, 'light'); 
 }
 
   

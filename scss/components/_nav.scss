@@ -8,6 +8,7 @@
     @include flexbox(start, center, row); 
     gap: 10px; // Espacio entre el logo y el texto
     font-family: "Gochi Hand", cursive;
+    color: map-get($colors, 'light');
   }
   
   .nav-link {
