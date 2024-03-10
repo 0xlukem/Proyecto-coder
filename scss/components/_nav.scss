@@ -1,14 +1,13 @@
-// _nav.scss (Estilos específicos para la navegación)
+// Estilos específicos para la navegación
 
 .navbar-brand {
     img {
       max-height: 50px;
     }
   
-    font-family: "Gochi Hand", cursive;
-    display: flex;
-    align-items: center;
+    @include flexbox(start, center, row); 
     gap: 10px; // Espacio entre el logo y el texto
+    font-family: "Gochi Hand", cursive;
   }
   
   .nav-link {
@@ -16,7 +15,7 @@
     color: #f2eded !important; // Forzar el color del texto de los enlaces
   
     &:hover {
-      color: #040404 !important; // Color al pasar el ratón
+      color: #040404 !important; // Color al pasar el mouse
     }
   }
   

@@ -1,13 +1,13 @@
-// _footer.scss (Estilos específicos para el pie de página)
+// Estilos específicos para el pie de página
+
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #E6818D; // Ajusta al color de tu preferencia
-    color: aliceblue; // Ajusta al color de tu preferencia
-  }
+  @include flexbox(space-between, center, row); // Utiliza tu mixin aquí
+  padding: 20px;
+  background-color: #E6818D;
+  color: aliceblue;
+}
+
   
   .footer-left,
   .footer-center,
