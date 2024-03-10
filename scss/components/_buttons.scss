@@ -1,5 +1,16 @@
 // Estilos específicos para botones
 
+.btn {   // uso de extend
+  padding: 10px 200px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
 .ctaCenter {
     text-align: center;
     margin-top: 30px;
@@ -7,15 +18,17 @@
   }
   
   .cta-btn {
+    @extend .btn;
     background-color: #59A6D5;
     color: rgb(243, 238, 238);
-    padding: 15px 200px;
-    text-decoration: none;
+    
   
     &:hover {
       background-color: #B3F1A6;
     }
-  // responsive para mobile
+  
+  
+    // responsive para mobile
     @media (max-width: 768px) {
       padding: 10px 50px; 
     }

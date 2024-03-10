@@ -74,14 +74,22 @@ ul {
 }
 
 .cta-btn-ftr {
-  padding: 10px 20px;
+  padding: 10px 40px !important;
   background-color: #59A6D5;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+  color: rgb(243, 238, 238);
 }
 .cta-btn-ftr:hover {
   background-color: #B3F1A6;
+}
+
+.btn, .cta-btn, .cta-btn-ftr {
+  padding: 10px 200px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .ctaCenter {
@@ -93,8 +101,6 @@ ul {
 .cta-btn {
   background-color: #59A6D5;
   color: rgb(243, 238, 238);
-  padding: 15px 200px;
-  text-decoration: none;
 }
 .cta-btn:hover {
   background-color: #B3F1A6;

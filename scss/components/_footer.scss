@@ -26,16 +26,13 @@
     width: 30px; // Ajusta según el tamaño deseado para los íconos
     margin-left: 10px; // Espaciado entre íconos
   }
-  
   .cta-btn-ftr {
-    padding: 10px 20px;
-    background-color: #59A6D5; // Ajusta al color de tu preferencia
-    color: #fff; // Ajusta al color de tu preferencia
-    text-decoration: none;
-    border-radius: 5px; // Añade bordes redondeados al botón
-  
-    &:hover {
-      background-color: #B3F1A6; // Ajusta para el efecto hover
+    @extend .btn;
+      padding: 10px 40px !important;
+      background-color: #59A6D5; 
+      color: rgb(243, 238, 238);
+      &:hover {
+        background-color: #B3F1A6; // Ajusta para el efecto hover
+      }
     }
-  }
   
